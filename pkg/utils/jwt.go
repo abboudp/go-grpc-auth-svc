@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/abboudp/go-grpc-auth-svc/pkg/models"
-	"github.com/golang-jwt/jwt"
+	jwt "github.com/golang-jwt/jwt/v4"
 )
 
 type JwtWrapper struct {
